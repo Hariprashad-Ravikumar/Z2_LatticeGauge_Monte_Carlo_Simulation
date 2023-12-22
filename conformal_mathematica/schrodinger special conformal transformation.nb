@@ -1,0 +1,296 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10282,        288]
+NotebookOptionsPosition[      9397,        265]
+NotebookOutlinePosition[      9976,        285]
+CellTagsIndexPosition[      9933,        282]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ DynamicModuleBox[{Typeset`querydata$$ = <|
+  "query" -> Typeset`Query["boxes" -> RowBox[{
+        TemplateBox[{
+          RowBox[{
+            RowBox[{
+              RowBox[{"(", 
+                RowBox[{"1", "+", 
+                  RowBox[{"a", " ", "t"}]}], ")"}], "^", 
+              RowBox[{"(", 
+                RowBox[{
+                  RowBox[{"-", "3"}], "/", "2"}], ")"}]}], 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "1"}], "/", 
+                RowBox[{"(", 
+                  RowBox[{"2", "m"}], ")"}]}], ")"}], "Exp", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"(", 
+                  RowBox[{"\[ImaginaryI]", " ", "m", " ", "a", " ", 
+                    RowBox[{"x", "^", "2"}]}], ")"}], "/", 
+                RowBox[{"(", 
+                  RowBox[{"2", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"a", " ", "t"}]}], ")"}]}], ")"}]}], ")"}]}], 
+          "x"}, "QueryD2"], ",", 
+        TemplateBox[{
+          RowBox[{
+            RowBox[{
+              RowBox[{"(", 
+                RowBox[{"1", "+", 
+                  RowBox[{"a", " ", "t"}]}], ")"}], "^", 
+              RowBox[{"(", 
+                RowBox[{
+                  RowBox[{"-", "3"}], "/", "2"}], ")"}]}], "\[ImaginaryI]", 
+            " ", "Exp", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"(", 
+                  RowBox[{"\[ImaginaryI]", " ", "m", " ", "a", " ", 
+                    RowBox[{"x", "^", "2"}]}], ")"}], "/", 
+                RowBox[{"(", 
+                  RowBox[{"2", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"a", " ", "t"}]}], ")"}]}], ")"}]}], ")"}]}], 
+          "t"}, "QueryD"]}], "json" -> 
+     "[{\"t\":47,\"c\":[[{\"t\":0,\"v\":\"(1+a t)^(-3\\/2)(-1\\/(2m))Exp((\
+\[IDoubleDot]\.9d\.8e m a x^2)\\/(2(1+a \
+t)))\"}],[{\"t\":0,\"v\":\"x\"}]]},{\"t\":0,\"v\":\",\"},{\"t\":46,\"c\":[[{\"\
+t\":0,\"v\":\"(1+a t)^(-3\\/2)\[IDoubleDot]\.9d\.8e \
+Exp((\[IDoubleDot]\.9d\.8e m a x^2)\\/(2(1+a \
+t)))\"}],[{\"t\":0,\"v\":\"t\"}]]}]"], "assumptions" -> {}, "parse" -> 
+   Defer[{
+      D[(((-1)/(2 $CellContext`m)) 
+        Exp[(I $CellContext`m $CellContext`a $CellContext`x^2)/(
+          2 (1 + $CellContext`a $CellContext`t))])/(
+        1 + $CellContext`a $CellContext`t)^(3/2), {$CellContext`x, 2}], 
+      D[(I 
+        Exp[(I $CellContext`m $CellContext`a $CellContext`x^2)/(
+          2 (1 + $CellContext`a $CellContext`t))])/(
+        1 + $CellContext`a $CellContext`t)^(3/2), $CellContext`t]}], 
+   "inputpredictions" -> {}, "otherpredictions" -> {"FullResults"}, 
+   "allassumptions" -> {
+     XMLElement["assumptions", {"count" -> "1"}, {
+       XMLElement[
+       "assumption", {
+        "type" -> "ListOrTimes", "word" -> "", "template" -> 
+         "Assuming multiplication${separator}Use ${desc} instead", "count" -> 
+         "2", "pulldown" -> "false", "default" -> 
+         "\"ListOrTimes\" -> \"Times\""}, {
+         XMLElement[
+         "value", {
+          "name" -> "Times", "desc" -> "multiplication", "input" -> 
+           "\"ListOrTimes\" -> \"Times\""}, {}], 
+         XMLElement[
+         "value", {
+          "name" -> "List", "desc" -> "a list", "input" -> 
+           "\"ListOrTimes\" -> \"List\""}, {}]}]}]}, "summarizeassumptions" -> 
+   FrontEnd`SuppressEvaluationHash[Automatic], "summarizepredictions" -> 
+   FrontEnd`SuppressEvaluationHash[True]|>, Typeset`update$$ = 
+  FrontEnd`SuppressEvaluationHash[14]}, 
+  DynamicBox[ToBoxes[
+    AlphaIntegration`NaturalLanguageInputBoxes[
+    2, Typeset`querydata$$, Typeset`update$$], StandardForm],
+   ImageSizeCache->{514., {126., 67.}},
+   TrackedSymbols:>{}],
+  BaseStyle->{Deployed -> True},
+  DynamicModuleValues:>{}]], "DeployedNLInput",
+ PrivateCellOptions->{
+ "CellSettings"-><|"HideDetails" -> FrontEnd`SuppressEvaluationHash[False]|>},
+ 
+ CellLabel->"In[19]:=",ExpressionUUID->"28a8994f-61a2-437f-a14d-712a40a63b91"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"2", "*", "m"}], ")"}], "^", 
+           RowBox[{"(", 
+            RowBox[{"-", "1"}], ")"}]}]}], ")"}], "*", 
+        RowBox[{"Exp", "[", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"I", "*", "m", "*", "a", "*", 
+            RowBox[{"x", "^", "2"}]}], ")"}], "/", 
+          RowBox[{"(", 
+           RowBox[{"2", "*", 
+            RowBox[{"(", 
+             RowBox[{"1", " ", "+", " ", 
+              RowBox[{"a", "*", "t"}]}], ")"}]}], ")"}]}], "]"}]}], ")"}], 
+      "/", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", " ", "+", " ", 
+         RowBox[{"a", "*", "t"}]}], ")"}], "^", 
+       RowBox[{"(", 
+        RowBox[{"3", "/", "2"}], ")"}]}]}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "2"}], "}"}]}], "]"}], ",", " ", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"I", "*", 
+        RowBox[{"Exp", "[", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"I", "*", "m", "*", "a", "*", 
+            RowBox[{"x", "^", "2"}]}], ")"}], "/", 
+          RowBox[{"(", 
+           RowBox[{"2", "*", 
+            RowBox[{"(", 
+             RowBox[{"1", " ", "+", " ", 
+              RowBox[{"a", "*", "t"}]}], ")"}]}], ")"}]}], "]"}]}], ")"}], 
+      "/", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", " ", "+", " ", 
+         RowBox[{"a", "*", "t"}]}], ")"}], "^", 
+       RowBox[{"(", 
+        RowBox[{"3", "/", "2"}], ")"}]}]}], ",", " ", "t"}], "]"}]}], 
+  "}"}]], "DeployedWLInput",
+ PrivateCellOptions->{
+ "CellSettings"->{"UsageTags" -> {{"D", 1}, {"Exp", 1}, {"I", 1}}}},
+ CellChangeTimes->{3.8613223930168552`*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"f4698735-2a13-4bbb-8535-e307b22cbf50"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["a", "2"], " ", 
+        SuperscriptBox["m", "2"], " ", 
+        SuperscriptBox["x", "2"], " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         FractionBox[
+          RowBox[{"\[ImaginaryI]", " ", "a", " ", "m", " ", 
+           SuperscriptBox["x", "2"]}], 
+          RowBox[{"2", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"a", " ", "t"}], "+", "1"}], ")"}]}]]]}], 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"a", " ", "t"}], "+", "1"}], ")"}], "2"]], "-", 
+      FractionBox[
+       RowBox[{"\[ImaginaryI]", " ", "a", " ", "m", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         FractionBox[
+          RowBox[{"\[ImaginaryI]", " ", "a", " ", "m", " ", 
+           SuperscriptBox["x", "2"]}], 
+          RowBox[{"2", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"a", " ", "t"}], "+", "1"}], ")"}]}]]]}], 
+       RowBox[{
+        RowBox[{"a", " ", "t"}], "+", "1"}]]}], 
+     RowBox[{"2", " ", "m", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"a", " ", "t"}], "+", "1"}], ")"}], 
+       RowBox[{"3", "/", "2"}]]}]], ",", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["a", "2"], " ", "m", " ", 
+       SuperscriptBox["x", "2"], " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        FractionBox[
+         RowBox[{"\[ImaginaryI]", " ", "a", " ", "m", " ", 
+          SuperscriptBox["x", "2"]}], 
+         RowBox[{"2", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"a", " ", "t"}], "+", "1"}], ")"}]}]]]}], 
+      RowBox[{"2", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"a", " ", "t"}], "+", "1"}], ")"}], 
+        RowBox[{"7", "/", "2"}]]}]], "-", 
+     FractionBox[
+      RowBox[{"3", " ", "\[ImaginaryI]", " ", "a", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        FractionBox[
+         RowBox[{"\[ImaginaryI]", " ", "a", " ", "m", " ", 
+          SuperscriptBox["x", "2"]}], 
+         RowBox[{"2", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"a", " ", "t"}], "+", "1"}], ")"}]}]]]}], 
+      RowBox[{"2", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"a", " ", "t"}], "+", "1"}], ")"}], 
+        RowBox[{"5", "/", "2"}]]}]]}]}], "}"}], TraditionalForm]], "Output",
+ CellChangeTimes->{3.861322393031662*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"e2c6d5c6-e130-4513-ab82-1a753e2214fb"]
+}, Open  ]],
+
+Cell["", "NaturalLanguageInput", "NLI",
+ CellChangeTimes->{{3.8613214778862343`*^9, 
+  3.861321485365716*^9}},ExpressionUUID->"19efe669-8c4c-4812-b886-\
+aa5fd4a85a2e"]
+},
+WindowSize->{627, 747},
+WindowMargins->{{28, Automatic}, {36, Automatic}},
+TaggingRules->{
+ "ShowSpecialCharactersDockedCell" -> True, "TryRealOnly" -> False, 
+  "SpecialCharactersTab" -> "Popular", 
+  "PresenterSettings" -> {"Dialogs" -> {}}},
+FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (December 2, 2021)",
+StyleDefinitions->"WolframAlphaNotebook.nb",
+ExpressionUUID->"184d9a18-e429-437c-adb0-18da1d95bff1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4043, 94, 210, "DeployedNLInput",ExpressionUUID->"28a8994f-61a2-437f-a14d-712a40a63b91"],
+Cell[4626, 118, 1943, 60, 68, "DeployedWLInput",ExpressionUUID->"f4698735-2a13-4bbb-8535-e307b22cbf50"],
+Cell[6572, 180, 2639, 77, 111, "Output",ExpressionUUID->"e2c6d5c6-e130-4513-ab82-1a753e2214fb"]
+}, Open  ]],
+Cell[9226, 260, 167, 3, 46, "NaturalLanguageInput",ExpressionUUID->"19efe669-8c4c-4812-b886-aa5fd4a85a2e"]
+}
+]
+*)
+
