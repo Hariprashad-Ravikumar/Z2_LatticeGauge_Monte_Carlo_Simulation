@@ -1,16 +1,21 @@
 # $\mathbb{Z}_2$ Lattice Gauge Theory: Monte Carlo Simulations
 
-This repository contains a Python-based simulation framework for studying $\mathbb{Z}_2$ lattice gauge theories using Monte Carlo methods.  
-It applies the Metropolis algorithm to explore phase transitions and gauge field dynamics in lower-dimensional systems.
+This project develops a Python-based simulation framework for studying $\mathbb{Z}_2$ lattice gauge theories using Monte Carlo methods. It applies the Metropolis algorithm to explore phase transitions and gauge field dynamics across lower-dimensional lattice systems. Numerical modeling, statistical mechanics, and high-performance computation are combined to calculate physical observables like Wilson loops $\langle W \rangle$ and benchmark them against analytical results.
 
-📄 **Full Project Report:**  
-👉 [Click here to view the full PDF](./README_Z2.pdf)
+📄 **[Download the Full Project PDF](./README_Z2.pdf)**
 
 ---
-> The report includes theoretical background, simulation methodology, analytical benchmark calculations, and detailed numerical results for $\mathbb{Z}_2$ lattice gauge models.
+
+## 📚 Project Report (Preview)
+
+<img src="./READMEPNGs/README_Z2_Page_1.png" alt="Page 1" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_2.png" alt="Page 2" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_3.png" alt="Page 3" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_4.png" alt="Page 4" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_5.png" alt="Page 5" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_6.png" alt="Page 6" width="800"/>
+<img src="./READMEPNGs/README_Z2_Page_7.png" alt="Page 7" width="800"/>
 
 ---
-## Quick Preview
 
-You can download or view the full technical report here:
-[![View Full Report](https://img.shields.io/badge/Download-PDF-blue)](./README_Z2.pdf)
+✅ **Click [here](./README_Z2.pdf) to view or_**
