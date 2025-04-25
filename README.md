@@ -6,11 +6,11 @@ This project develops a Python-based simulation framework for studying $\mathbb{
 
 ## 📚 Project Report (Preview)
 <p align="center">
-<img src="./READMEPNGs/README_Z2_Page_1.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_2.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_3.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_4.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_5.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_6.png" width="800" style="display:block; margin:0; padding:0;"/>
-<img src="./READMEPNGs/README_Z2_Page_7.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-1.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-2.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-3.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-4.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-5.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-6.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-7.png" width="800" style="display:block; margin:0; padding:0;"/>
 </p>
