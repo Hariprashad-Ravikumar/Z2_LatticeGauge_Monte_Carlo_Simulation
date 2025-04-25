@@ -34,3 +34,19 @@ Expectation values are computed as path integrals:
 \[
 \langle \mathcal{O} \rangle = \frac{\int \mathcal{D}[U] \mathcal{D}[\psi] \mathcal{D}[\bar{\psi}]\, \mathcal{O}\, e^{-S_{\text{gauge}} - \int \bar{\psi}\mathcal{M}\psi}}{\int \mathcal{D}[U] \mathcal{D}[\psi] \mathcal{D}[\bar{\psi}]\, e^{-S_{\text{gauge}} - \int \bar{\psi}\mathcal{M}\psi}}
 \]
+
+The fermionic integrals yield the determinant of the Dirac operator:
+\[
+\langle \mathcal{O} \rangle = \frac{\int \mathcal{D}[U]\, \tilde{\mathcal{O}}\, \det(\mathcal{M})^2\, e^{-S_{\text{gauge}}}}{\int \mathcal{D}[U]\, \det(\mathcal{M})^2\, e^{-S_{\text{gauge}}}}
+\]
+
+---
+
+### Monte Carlo Simulation in Lattice QCD
+
+The observable is approximated via importance sampling:
+\[
+\langle \mathcal{O} \rangle \approx \frac{1}{N} \sum_{n=1}^N \mathcal{O}[U_n], \quad P[U_n] \propto e^{-S[U_n]}
+\]
+
+![Monte Carlo steps for Z2 LGT](mcstepsz2.pdf)
