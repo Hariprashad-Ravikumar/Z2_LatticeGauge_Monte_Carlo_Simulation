@@ -4,7 +4,7 @@ This project develops a Python-based simulation framework for studying $\mathbb{
 
 ## 📚 Project Report (Preview)
 <p align="center">
-<img src="./READMEPNGs/README_Z2-1.png" width="800" style="display:block; margin:0; padding:0;"/>
+<img src="./READMEPNGs/README_Z2-1a.png" width="800" style="display:block; margin:0; padding:0;"/>
 <img src="./READMEPNGs/README_Z2-2.png" width="800" style="display:block; margin:0; padding:0;"/>
 <img src="./READMEPNGs/README_Z2-3.png" width="800" style="display:block; margin:0; padding:0;"/>
 <img src="./READMEPNGs/README_Z2-4.png" width="800" style="display:block; margin:0; padding:0;"/>
